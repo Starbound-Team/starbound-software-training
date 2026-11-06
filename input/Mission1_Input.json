@@ -1,0 +1,808 @@
+[
+  {
+    "id": 17,
+    "sig_value": 348856,
+    "importance": "high",
+    "link": {
+      "left": "pdu",
+      "down": "mmg",
+      "right": "rai"
+    },
+    "valid": false,
+    "category": [
+      "status",
+      "drone",
+      "news",
+      "info"
+    ]
+  },
+  {
+    "id": 21,
+    "sig_value": 209546,
+    "importance": "high",
+    "link": {
+      "up": "fwc",
+      "left": "hmr",
+      "down": "mfp"
+    },
+    "valid": true,
+    "category": [
+      "rotors",
+      "noise",
+      "alien_flora",
+      "status"
+    ]
+  },
+  {
+    "id": 49,
+    "sig_value": 34035,
+    "importance": "high",
+    "link": {
+      "up": "mfp",
+      "left": "qfe",
+      "down": "yew"
+    },
+    "valid": true,
+    "category": [
+      "spam",
+      "status"
+    ]
+  },
+  {
+    "id": 28,
+    "sig_value": 768360,
+    "importance": "low",
+    "link": {
+      "up": "fot",
+      "down": "ycy",
+      "right": "tal"
+    },
+    "valid": true,
+    "category": [
+      "info",
+      "demotion"
+    ]
+  },
+  {
+    "id": 22,
+    "sig_value": 765620,
+    "importance": "medium",
+    "link": {
+      "up": "cdh",
+      "left": "dhm",
+      "right": "hpo"
+    },
+    "valid": true,
+    "category": [
+      "info",
+      "status",
+      "temperature",
+      "drone"
+    ]
+  },
+  {
+    "id": 15,
+    "sig_value": 552998,
+    "importance": "high",
+    "link": {
+      "up": "fso",
+      "left": "bzt",
+      "down": "ayg",
+      "right": "vbp"
+    },
+    "valid": true,
+    "category": [
+      "noise",
+      "drone",
+      "status",
+      "demotion"
+    ]
+  },
+  {
+    "id": 44,
+    "sig_value": 707249,
+    "importance": "medium",
+    "link": {
+      "up": "utx",
+      "left": "pxh",
+      "down": "uuj",
+      "right": "uan"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "news",
+      "drone",
+      "temperature"
+    ]
+  },
+  {
+    "id": 1,
+    "sig_value": 737549,
+    "importance": "high",
+    "link": {
+      "up": "lqa",
+      "left": "tal",
+      "down": "izw",
+      "right": "nvr"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "drone"
+    ]
+  },
+  {
+    "id": 14,
+    "sig_value": 836138,
+    "importance": "medium",
+    "link": {
+      "up": "xvs",
+      "left": "vms",
+      "down": "nmk",
+      "right": "tsx"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "info"
+    ]
+  },
+  {
+    "id": 30,
+    "sig_value": 197173,
+    "importance": "low",
+    "link": {
+      "up": "dwg",
+      "left": "twf",
+      "right": "dhm"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "status",
+      "news"
+    ]
+  },
+  {
+    "id": 26,
+    "sig_value": 243454,
+    "importance": "medium",
+    "link": {
+      "up": "xue",
+      "left": "clc",
+      "down": "voa",
+      "right": "fqw"
+    },
+    "valid": true,
+    "category": [
+      "info",
+      "rotors"
+    ]
+  },
+  {
+    "id": 7,
+    "sig_value": 384957,
+    "importance": "medium",
+    "link": {
+      "up": "mmg",
+      "left": "tsx",
+      "down": "wxc",
+      "right": "pxh"
+    },
+    "valid": false,
+    "category": [
+      "news",
+      "drone",
+      "status"
+    ]
+  },
+  {
+    "id": 46,
+    "sig_value": 679689,
+    "importance": "medium",
+    "link": {
+      "up": "tio",
+      "left": "vbp",
+      "down": "wqx",
+      "right": "tok"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "status",
+      "landing_gear"
+    ]
+  },
+  {
+    "id": 48,
+    "sig_value": 327160,
+    "importance": "low",
+    "link": {
+      "up": "olj",
+      "right": "twf"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "rotors",
+      "spam",
+      "alien_flora"
+    ]
+  },
+  {
+    "id": 6,
+    "sig_value": 337643,
+    "importance": "medium",
+    "link": {
+      "up": "yew",
+      "left": "tok",
+      "down": "vid"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "drone"
+    ]
+  },
+  {
+    "id": 25,
+    "sig_value": 894737,
+    "importance": "low",
+    "link": {
+      "up": "ljr",
+      "left": "vqg",
+      "down": "lqa",
+      "right": "vms"
+    },
+    "valid": true,
+    "category": [
+      "uplink",
+      "rotors",
+      "spam"
+    ]
+  },
+  {
+    "id": 36,
+    "sig_value": 588626,
+    "importance": "low",
+    "link": {
+      "up": "xsn",
+      "left": "xbf",
+      "down": "jux",
+      "right": "wri"
+    },
+    "valid": false,
+    "category": [
+      "spam",
+      "rotors",
+      "status"
+    ]
+  },
+  {
+    "id": 37,
+    "sig_value": 673494,
+    "importance": "low",
+    "link": {
+      "left": "owo",
+      "down": "ljr",
+      "right": "mkz"
+    },
+    "valid": true,
+    "category": [
+      "spam",
+      "temperature",
+      "drone",
+      "status"
+    ]
+  },
+  {
+    "id": 18,
+    "sig_value": 526635,
+    "importance": "low",
+    "link": {
+      "up": "wxc",
+      "left": "ipf",
+      "down": "oqb",
+      "right": "iqd"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "drone",
+      "info",
+      "brewery"
+    ]
+  },
+  {
+    "id": 11,
+    "sig_value": 860341,
+    "importance": "high",
+    "link": {
+      "up": "jeo",
+      "left": "hki",
+      "down": "ccw",
+      "right": "qvl"
+    },
+    "valid": false,
+    "category": [
+      "info",
+      "drone",
+      "news"
+    ]
+  },
+  {
+    "id": 47,
+    "sig_value": 236321,
+    "importance": "low",
+    "link": {
+      "up": "ayg",
+      "left": "myf",
+      "right": "hhj"
+    },
+    "valid": true,
+    "category": [
+      "temperature",
+      "spam"
+    ]
+  },
+  {
+    "id": 4,
+    "sig_value": 764831,
+    "importance": "low",
+    "link": {
+      "up": "izw",
+      "left": "itj",
+      "down": "gqg",
+      "right": "hki"
+    },
+    "valid": false,
+    "category": [
+      "drone",
+      "temperature"
+    ]
+  },
+  {
+    "id": 27,
+    "sig_value": 87277,
+    "importance": "high",
+    "link": {
+      "up": "zit",
+      "down": "olj",
+      "right": "ymh"
+    },
+    "valid": true,
+    "category": [
+      "spam",
+      "rotors",
+      "drone"
+    ]
+  },
+  {
+    "id": 8,
+    "sig_value": 525126,
+    "importance": "high",
+    "link": {
+      "left": "rai",
+      "down": "utx",
+      "right": "xxq"
+    },
+    "valid": true,
+    "category": [
+      "entertainment",
+      "info"
+    ]
+  },
+  {
+    "id": 20,
+    "sig_value": 835817,
+    "importance": "high",
+    "link": {
+      "up": "ltx",
+      "left": "sxe",
+      "down": "tio",
+      "right": "qfe"
+    },
+    "valid": false,
+    "category": [
+      "drone",
+      "noise",
+      "status",
+      "news"
+    ]
+  },
+  {
+    "id": 40,
+    "sig_value": 189565,
+    "importance": "high",
+    "link": {
+      "up": "jux",
+      "left": "cux",
+      "down": "fso",
+      "right": "sxe"
+    },
+    "valid": false,
+    "category": [
+      "status",
+      "temperature",
+      "noise",
+      "device122378"
+    ]
+  },
+  {
+    "id": 42,
+    "sig_value": 504471,
+    "importance": "high",
+    "link": {
+      "up": "voa",
+      "left": "wri",
+      "down": "ltx",
+      "right": "hmr"
+    },
+    "valid": true,
+    "category": [
+      "noise",
+      "drone"
+    ]
+  },
+  {
+    "id": 12,
+    "sig_value": 304385,
+    "importance": "low",
+    "link": {
+      "up": "zig",
+      "left": "mkp",
+      "down": "dfb",
+      "right": "bzt"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "alien_flora"
+    ]
+  },
+  {
+    "id": 2,
+    "sig_value": 696000,
+    "importance": "medium",
+    "link": {
+      "up": "got",
+      "left": "uan",
+      "down": "xue",
+      "right": "uym"
+    },
+    "valid": false,
+    "category": [
+      "status",
+      "temperature"
+    ]
+  },
+  {
+    "id": 29,
+    "sig_value": 297962,
+    "importance": "medium",
+    "link": {
+      "left": "qnx",
+      "down": "wjw"
+    },
+    "valid": false,
+    "category": [
+      "status",
+      "temperature",
+      "news"
+    ]
+  },
+  {
+    "id": 23,
+    "sig_value": 564635,
+    "importance": "medium",
+    "link": {
+      "up": "gqg",
+      "left": "kwh",
+      "down": "itw",
+      "right": "hva"
+    },
+    "valid": false,
+    "category": [
+      "rotors",
+      "status",
+      "drone"
+    ]
+  },
+  {
+    "id": 24,
+    "sig_value": 209208,
+    "importance": "medium",
+    "link": {
+      "up": "uuj",
+      "left": "iqd",
+      "down": "xsn",
+      "right": "clc"
+    },
+    "valid": false,
+    "category": [
+      "temperature",
+      "status",
+      "drone",
+      "demotion"
+    ]
+  },
+  {
+    "id": 3,
+    "sig_value": 530903,
+    "importance": "medium",
+    "link": {
+      "up": "vid",
+      "left": "ors"
+    },
+    "valid": true,
+    "category": [
+      "temperature",
+      "spam",
+      "status"
+    ]
+  },
+  {
+    "id": 45,
+    "sig_value": 888627,
+    "importance": "medium",
+    "link": {
+      "up": "zif",
+      "left": "fqw",
+      "down": "fwc"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "status",
+      "demotion",
+      "info"
+    ]
+  },
+  {
+    "id": 13,
+    "sig_value": 347222,
+    "importance": "medium",
+    "link": {
+      "up": "ccw",
+      "left": "hva",
+      "down": "tmk",
+      "right": "nyh"
+    },
+    "valid": true,
+    "category": [
+      "temperature",
+      "drone",
+      "rotors",
+      "brewery"
+    ]
+  },
+  {
+    "id": 35,
+    "sig_value": 790778,
+    "importance": "high",
+    "link": {
+      "up": "itw",
+      "left": "ymh",
+      "down": "dwg",
+      "right": "wvj"
+    },
+    "valid": true,
+    "category": [
+      "entertainment",
+      "status",
+      "temperature",
+      "info"
+    ]
+  },
+  {
+    "id": 9,
+    "sig_value": 436396,
+    "importance": "high",
+    "link": {
+      "down": "kad",
+      "right": "owo"
+    },
+    "valid": true,
+    "category": [
+      "entertainment",
+      "status"
+    ]
+  },
+  {
+    "id": 5,
+    "sig_value": 758790,
+    "importance": "high",
+    "link": {
+      "left": "mkz",
+      "down": "xvs",
+      "right": "pdu"
+    },
+    "valid": true,
+    "category": [
+      "info",
+      "drone"
+    ]
+  },
+  {
+    "id": 32,
+    "sig_value": 870355,
+    "importance": "high",
+    "link": {
+      "left": "xxq",
+      "down": "got",
+      "right": "qnx"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "status",
+      "temperature",
+      "spam"
+    ]
+  },
+  {
+    "id": 16,
+    "sig_value": 753753,
+    "importance": "high",
+    "link": {
+      "up": "wqx",
+      "left": "hhj",
+      "right": "ors"
+    },
+    "valid": true,
+    "category": [
+      "noise",
+      "status"
+    ]
+  },
+  {
+    "id": 31,
+    "sig_value": 887302,
+    "importance": "high",
+    "link": {
+      "up": "kad",
+      "down": "fot",
+      "right": "vqg"
+    },
+    "valid": true,
+    "category": [
+      "temperature",
+      "drone",
+      "news",
+      "status"
+    ]
+  },
+  {
+    "id": 33,
+    "sig_value": 114807,
+    "importance": "high",
+    "link": {
+      "up": "tmk",
+      "left": "wvj",
+      "down": "cdh",
+      "right": "mkp"
+    },
+    "valid": true,
+    "category": [
+      "drone",
+      "noise"
+    ]
+  },
+  {
+    "id": 39,
+    "sig_value": 240758,
+    "importance": "medium",
+    "link": {
+      "up": "oqr",
+      "left": "nyh",
+      "down": "zig",
+      "right": "cux"
+    },
+    "valid": true,
+    "category": [
+      "status",
+      "rotors",
+      "temperature"
+    ]
+  },
+  {
+    "id": 19,
+    "sig_value": 282359,
+    "importance": "medium",
+    "link": {
+      "up": "ycy",
+      "down": "muw",
+      "right": "itj"
+    },
+    "valid": true,
+    "category": [
+      "temperature",
+      "drone",
+      "rotors",
+      "status"
+    ]
+  },
+  {
+    "id": 43,
+    "sig_value": 606261,
+    "importance": "low",
+    "link": {
+      "up": "nmk",
+      "left": "nvr",
+      "down": "jeo",
+      "right": "ipf"
+    },
+    "valid": true,
+    "category": [
+      "battery",
+      "rotors",
+      "device122378"
+    ]
+  },
+  {
+    "id": 10,
+    "sig_value": 635068,
+    "importance": "medium",
+    "link": {
+      "up": "dfb",
+      "left": "hpo",
+      "right": "myf"
+    },
+    "valid": false,
+    "category": [
+      "temperature",
+      "info"
+    ]
+  },
+  {
+    "id": 38,
+    "sig_value": 852860,
+    "importance": "low",
+    "link": {
+      "up": "muw",
+      "down": "zit",
+      "right": "kwh"
+    },
+    "valid": true,
+    "category": [
+      "spam",
+      "status",
+      "drone",
+      "temperature"
+    ]
+  },
+  {
+    "id": 41,
+    "sig_value": 546243,
+    "importance": "high",
+    "link": {
+      "up": "wjw",
+      "left": "uym",
+      "down": "zif"
+    },
+    "valid": true,
+    "category": [
+      "rotors",
+      "drone",
+      "news"
+    ]
+  },
+  {
+    "id": 34,
+    "sig_value": 537395,
+    "importance": "high",
+    "link": {
+      "up": "oqb",
+      "left": "qvl",
+      "down": "oqr",
+      "right": "xbf"
+    },
+    "valid": true,
+    "category": [
+      "spam",
+      "info",
+      "status"
+    ]
+  }
+]

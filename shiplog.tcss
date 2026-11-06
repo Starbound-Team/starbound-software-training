@@ -1,0 +1,154 @@
+/* Terminal-native look: no backgrounds, colours come from the user's palette. */
+
+Screen {
+    background: ansi_default;
+    align: center middle;
+}
+
+/* Home: starfield fills the screen behind, mission list sits on the right. */
+HomeScreen {
+    layers: stars menu;
+    align: right middle;
+}
+
+#stars {
+    layer: stars;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#menu {
+    layer: menu;
+    width: 32;
+    height: auto;
+    margin-right: 8;
+}
+
+ListView {
+    height: auto;
+    background: ansi_default;
+    &:focus {
+        background-tint: ansi_default 0%;
+    }
+    & > ListItem {
+        background: ansi_default;
+        color: ansi_default;
+        padding: 0 2;
+        &.intro {
+            margin-bottom: 1;
+        }
+        &.-highlight, &.-hovered {
+            background: ansi_default;
+            color: ansi_default;
+            text-style: none;
+        }
+    }
+    &:focus > ListItem.-highlight {
+        background: ansi_default;
+        color: ansi_default;
+        text-style: reverse;
+    }
+}
+
+.hint {
+    width: 100%;
+    content-align: center middle;
+    color: ansi_bright_black;
+}
+
+ReaderScreen, IntroScreen {
+    align: center top;
+}
+
+/* Reader: a fixed-width text column like a man page, no visible scrollbar. */
+#reader {
+    background: ansi_default;
+    scrollbar-size-vertical: 0;
+    padding: 1 4;
+    align-horizontal: left;
+}
+
+#reader Markdown {
+    background: ansi_default;
+    max-width: 88;
+}
+
+/* Part b sits under part a, split by a line of dashes. */
+#reader .part {
+    margin-bottom: 1;
+}
+
+#reader .divider {
+    max-width: 88;
+    margin-bottom: 1;
+    color: ansi_bright_black;
+}
+
+#reader .part-answer {
+    max-width: 88;
+    margin-bottom: 1;
+    color: ansi_green;
+}
+
+ListView > ListItem.solved {
+    color: ansi_green;
+}
+
+/* Answer box: a Claude Code-style prompt between two rules. */
+#answer {
+    height: auto;
+    padding: 0 2;
+}
+
+#feedback {
+    height: auto;
+    padding: 0 2;
+    display: none;
+    &.wrong, &.correct {
+        display: block;
+    }
+    &.wrong {
+        color: ansi_yellow;
+    }
+    &.correct {
+        color: ansi_green;
+    }
+}
+
+#prompt {
+    height: auto;
+    border-top: solid ansi_bright_black;
+    border-bottom: solid ansi_bright_black;
+}
+
+#caret {
+    width: 2;
+    padding-left: 0;
+    color: ansi_bright_black;
+}
+
+#prompt:focus-within #caret {
+    color: ansi_default;
+}
+
+#prompt Input {
+    background: ansi_default;
+}
+
+#keys {
+    padding: 0 2;
+    color: ansi_bright_black;
+}
+
+#reader MarkdownH1, #reader MarkdownH2, #reader MarkdownH3,
+#reader MarkdownH4, #reader MarkdownH5, #reader MarkdownH6 {
+    color: ansi_yellow;
+    background: ansi_default;
+    text-style: bold;
+}
+
+/* Bold text in blue, like VS Code. */
+#reader MarkdownBlock > .strong {
+    color: ansi_bright_blue;
+}

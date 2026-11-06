@@ -1,0 +1,166 @@
+# Answer keys, one table per mission: [1a], [1b], [2a], ...
+#
+#   answer  hash of the correct answer; get it with
+#           python shiplog.py --hash 1a 42
+#   wrong   optional message for wrong answers no hint matched
+#
+# Hints are tried top to bottom and the first match is shown:
+#   equals = "41"   matches that exact answer (good for common mistakes)
+#   below  = 10     matches any number below 10
+#   above  = 100    matches any number above 100
+#
+# Inputs: 1 = drone_logs/input.json, 2 = photon_pixels/input.txt,
+# 3 = wormhole_drill/input.txt, 4 = maze_functions/input.txt. The equals values are
+# answers from common mistakes (see each puzzle's README / stats tools).
+
+[1a]
+answer = "ce9d35ebd8c7c02fa6a3cba0d822b20dbbdc9d22195893ec1a15990832c33c22"
+wrong = "Not quite. Re-read the conditions carefully."
+
+[[1a.hints]]
+equals = "267434977"
+say = "Too many logs. Only importance medium or greater counts."
+
+[[1a.hints]]
+equals = "57567929"
+say = "Too few logs. Medium counts too, not just high."
+
+[[1a.hints]]
+equals = "318886079"
+say = "Did you check that each log is valid?"
+
+[[1a.hints]]
+equals = "11493170"
+say = "A log needs just one of drone, status or temperature, not all three."
+
+[[1a.hints]]
+equals = "176507078"
+say = "Right logs, wrong order. Go from the lowest id to the highest."
+
+[[1a.hints]]
+equals = "158703717"
+say = "So close! The first kept log is multiplied by 1."
+
+[1b]
+answer = "cb79455bdae262d63c40f7edd0a15082a7f54e949c0c4a4081cabf51b6b539c7"
+wrong = "Not quite. Check how you place the logs on the grid."
+
+[[1b.hints]]
+equals = "160422420"
+say = "The drone needs the full log history, not just the logs you kept."
+
+[[1b.hints]]
+equals = "616515463"
+say = "Read a whole row from left to right before moving down."
+
+[[1b.hints]]
+equals = "624424254"
+say = "That's id order. Use the grid position instead."
+
+[[1b.hints]]
+equals = "574162272"
+say = "So close! The top-left log is multiplied by 1."
+
+[2a]
+answer = "e0da80897f89c3f9346547e3b0be993f8834a5fed590d60df7cc8957a1d12fdc"
+wrong = "Not quite. Try your code on both examples first."
+
+[[2a.hints]]
+equals = "-36674"
+say = "Did you loop the lenses round past +3 and -3?"
+
+[[2a.hints]]
+equals = "-751"
+say = "A photon also hits every lens up to its entanglement value away."
+
+[[2a.hints]]
+equals = "-2561"
+say = "So close! Lens positions are counted from 1."
+
+[2b]
+answer = "cb57ae580fd77ad43b89383ce8e3646370f1a8e57435eb38d31f8bdd05f07921"
+wrong = "Not quite. Try your code on both examples first."
+
+[[2b.hints]]
+equals = "162"
+say = "That calibrates the camera, but is it the cheapest way?"
+
+[[2b.hints]]
+equals = "161"
+say = "That calibrates the camera, but is it the cheapest way?"
+
+[[2b.hints]]
+equals = "255"
+say = "The calibrator can cool lenses too."
+
+[[2b.hints]]
+equals = "447"
+say = "Count calibrator uses, not lens changes. One use changes three lenses."
+
+[[2b.hints]]
+equals = "170"
+say = "The lenses form a ring: the first lens neighbours the last."
+
+[[2b.hints]]
+above = 149
+say = "Too many uses. If it calibrates the camera, there's a cheaper way."
+
+[3a]
+answer = "085115660637df7ec2f62047913de32ca5f67154c0c18118edf8b4cdaf88dcf1"
+wrong = "Not quite. Try your code on the examples first."
+
+[[3a.hints]]
+equals = "2880"
+say = "Two columns tie on digs. Pick the one with the smaller muplex."
+
+[[3a.hints]]
+equals = "2070"
+say = "So close! Columns are counted from 1."
+
+[[3a.hints]]
+equals = "45"
+say = "That's the number of digs. The muplex is column x digs."
+
+[3b]
+answer = "59473beefc7fbcc0121df3209b415e61d57f96da09f199ee11eefc738149e670"
+wrong = "Not quite."
+
+[[3b.hints]]
+equals = "17182"
+say = "So close! Columns are counted from 1."
+
+[[3b.hints]]
+equals = "781"
+say = "That's the number of digs. The muplex is column x digs."
+
+[4a]
+answer = "1489f90fca5bf46806cf282ce5c8d79fbb318c8bd5e9103b3f4d34319dde0fb7"
+wrong = "Not quite. Try your code on the example first."
+
+[[4a.hints]]
+equals = "489"
+say = "An F into a tree is skipped, and costs no tick."
+
+[[4a.hints]]
+equals = "344"
+say = "The drone stops the moment it reaches E, even in the middle of a function."
+
+[4b]
+answer = "3bfafb5fda4a6097e11262f3116c6a092ee459e13e1979a8ed0b6e74d2cdfdee"
+wrong = "Not quite."
+
+[[4b.hints]]
+equals = "3414"
+say = "That reaches E, but not fast. Does your search lock in the first way it reaches a square?"
+
+[[4b.hints]]
+equals = "166"
+say = "Fewest calls isn't fewest ticks."
+
+[[4b.hints]]
+equals = "163"
+say = "So close! The last call stops the moment the drone reaches E."
+
+[[4b.hints]]
+equals = "182"
+say = "An F into a tree is skipped, and costs no tick."
