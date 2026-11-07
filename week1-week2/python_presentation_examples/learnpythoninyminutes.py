@@ -1,3 +1,12 @@
+""" 
+This resource can be found: 
+    https://learnxinyminutes.com/python
+    https://learnxinyminutes.com/files/learnpython.py
+Related Relevant links:
+    https://learnxinyminutes.com/
+    https://github.com/adambard/learnxinyminutes-docs
+    https://creativecommons.org/licenses/by-sa/3.0/deed.en
+"""
 # Single line comments start with a number symbol.
 
 """ Multiline strings can be written
